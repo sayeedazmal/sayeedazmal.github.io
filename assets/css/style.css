@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
+
+
+body{font-family: 'Noto Sans', sans-serif; color: #888888}
+h1,h2,h3,h4,h5 {font-family: 'Zilla Slab', serif;
+	margin: 0 0 15px;
+}
+.slid-bg-1 {background-image: url(../img/slid-bg.jpg);}
+
+
+
+.header-area{
+	font-size: 16px;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 700
+}
+.header-area a .search-icon {
+	color: #333;
+}
+
+.mainmenu ul{
+	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	flex-direction: row;
+	float: left;
+	margin-left:145px;
+	
+}
+
+.mainmenu li{
+	display: inline-block;
+	position: relative;
+
+}
+
+.mainmenu li a{
+	display: block;
+	padding: 16px
+
+
+}
+
+
+
+
+
+.logo{
+	font-size: 20px;
+	margin-top: 12px;
+}
+
+
+.single-slide-item {
+	    position: relative;
+	    z-index: 1;
+	    background-size: cover;
+	    background-position: center;
+	    background-color: #333;
+	}
+
+.single-slide-item:after {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    height: 100%;
+	    width: 100%;
+	    content: "";
+	    background: #000;
+	    z-index: -1;
+	    opacity: .66;
+	}
+.slid-text, .slid-text a{
+	color:#fff;
+	}
+.slid-text h2{
+	font-size: 60px;
+}
+.slid-text h2 span{
+	font-weight: 300;
+	font-style: italic;
+
+}
+.video-btn{
+	display:block;
+	position: relative;
+	margin: 65px 0;
+}
+.play-icon{
+    background: #22bbc0;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -30px;
+    margin-top: -30px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+}
+.boxed-btn{
+	background-color: #22bbc0;
+	font-family: 'Zilla Slab', serif;
+	font-weight: 700;
+	padding: 16px 40px;
+    border-radius: 50px;
+}
+.slid-text{
+font-size: 16px;
+padding: 160px 0;
+text-align: center;
+
+}
+.header-area.header-absolute{
+	position: absolute;
+	left: 0;
+	right: 0;
+	width: 100%;
+    z-index: 9
+}
+.header-area.header-absolute a,.header-absolute.search-icon{
+	color:#fff;
+}
+
+.search-icon{
+	margin-top: 15px;
+	display: inline-block;
+}
